@@ -1,0 +1,100 @@
+/* Temel Sayfa Stili */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Görev Ekleme Bölümü */
+#app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#addTask {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#addTask:hover {
+    background-color: #0056b3;
+}
+
+/* Görev Listesi */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+span {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+}
+
+.deleteTask {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.deleteTask:hover {
+    background-color: #c82333;
+}
+
+/* Tümünü Sil Butonu */
+#deleteAll {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#deleteAll:hover {
+    background-color: #c82333;
+}
